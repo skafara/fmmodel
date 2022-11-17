@@ -13,4 +13,4 @@ $(BUILD_DIR):
 	mkdir $@
 
 clean:
-	rm $(BUILD_DIR)/$(BIN)
+	rm -f $(BUILD_DIR)/$(BIN)
